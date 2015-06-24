@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PhotoViewControllerDelegate <NSObject>
+
+-(void) fetchFotosWithLongtitude:(double)longtitude andLatitude:(double) latitude;
+
+@end
+
 @interface PhotosViewController : UIViewController
 
 @property NSArray *photos;
+-(void) refreshGalleryUsingLongitude:(double) longitude andLatitude:(double)latitude;
 
 @end
+

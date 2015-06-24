@@ -6,24 +6,26 @@
 //  Copyright (c) 2015 Kamil Zielinski. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
-@interface ViewController ()
+@interface MapViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MapViewController
 {
     GMSMapView *mapView_;
     BOOL firstLocationUpdate_;
 }
 
+@synthesize delegate;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Create a GMSCameraPosition that tells the map to display the
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-                                                            longitude:151.20
-                                                                 zoom:3];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:54.35
+                                                            longitude:18.66
+                                                                 zoom:14];
     
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.settings.compassButton = YES;
@@ -36,9 +38,6 @@
                   options:NSKeyValueObservingOptionNew
                   context:NULL];
     
-    //Whenever you need to check location
-    CLLocation *myLocation = mapView_.myLocation;
-    NSLog(@"%f %f",myLocation.coordinate.latitude, myLocation.coordinate.longitude);
     self.view = mapView_;
     
     // Ask for My Location data after the map has already been added to the UI.
@@ -48,12 +47,12 @@
     
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
+    marker.position = CLLocationCoordinate2DMake(54.36, 18.66);
+    marker.title = @"Gdansk";
+    marker.snippet = @"Polska";
     marker.map = mapView_;
-    marker.draggable=YES;
-    marker.userData=@"1";
+    marker.draggable = YES;
+    marker.userData = @"1";
 }
 
 - (void)dealloc {
@@ -65,7 +64,7 @@
 -(void)mapView:(GMSMapView *)mapView didEndDraggingMarker:(GMSMarker *)marker{
     if([marker.userData  isEqual: @"1"]){
         NSLog(@"New marker location latitude: %f longtitude: %f", marker.position.latitude, marker.position.longitude);
-    []
+    [self.delegate fetchFotosWithLongtitude:marker.position.longitude andLatitude:marker.position.latitude];
     }
 }
 

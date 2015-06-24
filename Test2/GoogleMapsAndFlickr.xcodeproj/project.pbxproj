@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		62E6431B68E03F6EDDD5D4C9 /* libPods-Test2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA908047B6CCEAE3A93B561 /* libPods-Test2.a */; };
+		9E00E3E51B380D880034F09E /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E00E3E41B380D880034F09E /* TabBarViewController.m */; };
+		9E00E3E81B38177B0034F09E /* photo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E00E3E61B38177B0034F09E /* photo_icon.png */; };
+		9E00E3E91B38177B0034F09E /* world_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E00E3E71B38177B0034F09E /* world_icon.png */; };
 		9EFD4A001B300F9500DB0FF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD49FF1B300F9500DB0FF2 /* main.m */; };
 		9EFD4A031B300F9500DB0FF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD4A021B300F9500DB0FF2 /* AppDelegate.m */; };
-		9EFD4A061B300F9500DB0FF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD4A051B300F9500DB0FF2 /* ViewController.m */; };
+		9EFD4A061B300F9500DB0FF2 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD4A051B300F9500DB0FF2 /* MapViewController.m */; };
 		9EFD4A091B300F9500DB0FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A071B300F9500DB0FF2 /* Main.storyboard */; };
 		9EFD4A0B1B300F9500DB0FF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A0A1B300F9500DB0FF2 /* Images.xcassets */; };
 		9EFD4A0E1B300F9500DB0FF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A0C1B300F9500DB0FF2 /* LaunchScreen.xib */; };
 		9EFD4A1A1B300F9500DB0FF2 /* Test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD4A191B300F9500DB0FF2 /* Test2Tests.m */; };
 		9EFD4A241B30108E00DB0FF2 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFD4A231B30108E00DB0FF2 /* GoogleMaps.framework */; };
 		9EFD4A2D1B37153700DB0FF2 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD4A2C1B37153700DB0FF2 /* PhotosViewController.m */; };
-		9EFD4A301B3718B300DB0FF2 /* photo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A2E1B3718B300DB0FF2 /* photo_icon.png */; };
-		9EFD4A311B3718B300DB0FF2 /* world_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A2F1B3718B300DB0FF2 /* world_icon.png */; };
-		9EFD4A351B371E1300DB0FF2 /* image_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A321B371E1300DB0FF2 /* image_3.jpeg */; };
-		9EFD4A361B371E1300DB0FF2 /* image_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A331B371E1300DB0FF2 /* image_2.jpeg */; };
-		9EFD4A371B371E1300DB0FF2 /* image_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9EFD4A341B371E1300DB0FF2 /* image_1.jpeg */; };
+		9EFE09B21B39D55C006153E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFE09B11B39D55C006153E7 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,27 +37,27 @@
 		1495CF90C5DC3CAA08A7A212 /* Pods-Test2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test2/Pods-Test2.release.xcconfig"; sourceTree = "<group>"; };
 		1DA908047B6CCEAE3A93B561 /* libPods-Test2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9639273AE9BD0941D5C6C824 /* Pods-Test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test2/Pods-Test2.debug.xcconfig"; sourceTree = "<group>"; };
-		9EFD49FA1B300F9500DB0FF2 /* Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E00E3E31B380D880034F09E /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		9E00E3E41B380D880034F09E /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		9E00E3E61B38177B0034F09E /* photo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_icon.png; sourceTree = "<group>"; };
+		9E00E3E71B38177B0034F09E /* world_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world_icon.png; sourceTree = "<group>"; };
+		9EFD49FA1B300F9500DB0FF2 /* GoogleMapsAndFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsAndFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFD49FE1B300F9500DB0FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EFD49FF1B300F9500DB0FF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EFD4A011B300F9500DB0FF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EFD4A021B300F9500DB0FF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EFD4A041B300F9500DB0FF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EFD4A051B300F9500DB0FF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EFD4A041B300F9500DB0FF2 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9EFD4A051B300F9500DB0FF2 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		9EFD4A081B300F9500DB0FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EFD4A0A1B300F9500DB0FF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EFD4A0D1B300F9500DB0FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9EFD4A131B300F9500DB0FF2 /* Test2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFD4A131B300F9500DB0FF2 /* GoogleMapsAndFlickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsAndFlickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFD4A181B300F9500DB0FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EFD4A191B300F9500DB0FF2 /* Test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2Tests.m; sourceTree = "<group>"; };
 		9EFD4A231B30108E00DB0FF2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		9EFD4A2B1B37153700DB0FF2 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
 		9EFD4A2C1B37153700DB0FF2 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
-		9EFD4A2E1B3718B300DB0FF2 /* photo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_icon.png; sourceTree = "<group>"; };
-		9EFD4A2F1B3718B300DB0FF2 /* world_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world_icon.png; sourceTree = "<group>"; };
-		9EFD4A321B371E1300DB0FF2 /* image_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_3.jpeg; sourceTree = "<group>"; };
-		9EFD4A331B371E1300DB0FF2 /* image_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_2.jpeg; sourceTree = "<group>"; };
-		9EFD4A341B371E1300DB0FF2 /* image_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_1.jpeg; sourceTree = "<group>"; };
+		9EFE09B11B39D55C006153E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFE09B21B39D55C006153E7 /* SystemConfiguration.framework in Frameworks */,
 				9EFD4A241B30108E00DB0FF2 /* GoogleMaps.framework in Frameworks */,
 				62E6431B68E03F6EDDD5D4C9 /* libPods-Test2.a in Frameworks */,
 			);
@@ -93,6 +93,7 @@
 		65EB7FDF2ECF043C5254613B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9EFE09B11B39D55C006153E7 /* SystemConfiguration.framework */,
 				9EFD4A231B30108E00DB0FF2 /* GoogleMaps.framework */,
 				1DA908047B6CCEAE3A93B561 /* libPods-Test2.a */,
 			);
@@ -113,8 +114,8 @@
 		9EFD49FB1B300F9500DB0FF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EFD49FA1B300F9500DB0FF2 /* Test2.app */,
-				9EFD4A131B300F9500DB0FF2 /* Test2Tests.xctest */,
+				9EFD49FA1B300F9500DB0FF2 /* GoogleMapsAndFlickr.app */,
+				9EFD4A131B300F9500DB0FF2 /* GoogleMapsAndFlickrTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,21 +123,20 @@
 		9EFD49FC1B300F9500DB0FF2 /* Test2 */ = {
 			isa = PBXGroup;
 			children = (
-				9EFD4A321B371E1300DB0FF2 /* image_3.jpeg */,
-				9EFD4A331B371E1300DB0FF2 /* image_2.jpeg */,
-				9EFD4A341B371E1300DB0FF2 /* image_1.jpeg */,
+				9E00E3E61B38177B0034F09E /* photo_icon.png */,
+				9E00E3E71B38177B0034F09E /* world_icon.png */,
 				9EFD4A011B300F9500DB0FF2 /* AppDelegate.h */,
 				9EFD4A021B300F9500DB0FF2 /* AppDelegate.m */,
-				9EFD4A041B300F9500DB0FF2 /* ViewController.h */,
-				9EFD4A051B300F9500DB0FF2 /* ViewController.m */,
+				9EFD4A041B300F9500DB0FF2 /* MapViewController.h */,
+				9EFD4A051B300F9500DB0FF2 /* MapViewController.m */,
 				9EFD4A071B300F9500DB0FF2 /* Main.storyboard */,
 				9EFD4A0A1B300F9500DB0FF2 /* Images.xcassets */,
-				9EFD4A2E1B3718B300DB0FF2 /* photo_icon.png */,
-				9EFD4A2F1B3718B300DB0FF2 /* world_icon.png */,
 				9EFD4A0C1B300F9500DB0FF2 /* LaunchScreen.xib */,
 				9EFD49FD1B300F9500DB0FF2 /* Supporting Files */,
 				9EFD4A2B1B37153700DB0FF2 /* PhotosViewController.h */,
 				9EFD4A2C1B37153700DB0FF2 /* PhotosViewController.m */,
+				9E00E3E31B380D880034F09E /* TabBarViewController.h */,
+				9E00E3E41B380D880034F09E /* TabBarViewController.m */,
 			);
 			path = Test2;
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EFD49F91B300F9500DB0FF2 /* Test2 */ = {
+		9EFD49F91B300F9500DB0FF2 /* GoogleMapsAndFlickr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EFD4A1D1B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "Test2" */;
+			buildConfigurationList = 9EFD4A1D1B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "GoogleMapsAndFlickr" */;
 			buildPhases = (
 				C6892A3E0A0BB3055842F486 /* Check Pods Manifest.lock */,
 				9EFD49F61B300F9500DB0FF2 /* Sources */,
@@ -184,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = Test2;
+			name = GoogleMapsAndFlickr;
 			productName = Test2;
-			productReference = 9EFD49FA1B300F9500DB0FF2 /* Test2.app */;
+			productReference = 9EFD49FA1B300F9500DB0FF2 /* GoogleMapsAndFlickr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EFD4A121B300F9500DB0FF2 /* Test2Tests */ = {
+		9EFD4A121B300F9500DB0FF2 /* GoogleMapsAndFlickrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EFD4A201B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "Test2Tests" */;
+			buildConfigurationList = 9EFD4A201B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "GoogleMapsAndFlickrTests" */;
 			buildPhases = (
 				9EFD4A0F1B300F9500DB0FF2 /* Sources */,
 				9EFD4A101B300F9500DB0FF2 /* Frameworks */,
@@ -202,9 +202,9 @@
 			dependencies = (
 				9EFD4A151B300F9500DB0FF2 /* PBXTargetDependency */,
 			);
-			name = Test2Tests;
+			name = GoogleMapsAndFlickrTests;
 			productName = Test2Tests;
-			productReference = 9EFD4A131B300F9500DB0FF2 /* Test2Tests.xctest */;
+			productReference = 9EFD4A131B300F9500DB0FF2 /* GoogleMapsAndFlickrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EFD49F51B300F9500DB0FF2 /* Build configuration list for PBXProject "Test2" */;
+			buildConfigurationList = 9EFD49F51B300F9500DB0FF2 /* Build configuration list for PBXProject "GoogleMapsAndFlickr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EFD49F91B300F9500DB0FF2 /* Test2 */,
-				9EFD4A121B300F9500DB0FF2 /* Test2Tests */,
+				9EFD49F91B300F9500DB0FF2 /* GoogleMapsAndFlickr */,
+				9EFD4A121B300F9500DB0FF2 /* GoogleMapsAndFlickrTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,14 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E00E3E81B38177B0034F09E /* photo_icon.png in Resources */,
 				9EFD4A091B300F9500DB0FF2 /* Main.storyboard in Resources */,
-				9EFD4A311B3718B300DB0FF2 /* world_icon.png in Resources */,
 				9EFD4A0E1B300F9500DB0FF2 /* LaunchScreen.xib in Resources */,
-				9EFD4A371B371E1300DB0FF2 /* image_1.jpeg in Resources */,
-				9EFD4A361B371E1300DB0FF2 /* image_2.jpeg in Resources */,
-				9EFD4A351B371E1300DB0FF2 /* image_3.jpeg in Resources */,
+				9E00E3E91B38177B0034F09E /* world_icon.png in Resources */,
 				9EFD4A0B1B300F9500DB0FF2 /* Images.xcassets in Resources */,
-				9EFD4A301B3718B300DB0FF2 /* photo_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EFD4A061B300F9500DB0FF2 /* ViewController.m in Sources */,
+				9E00E3E51B380D880034F09E /* TabBarViewController.m in Sources */,
+				9EFD4A061B300F9500DB0FF2 /* MapViewController.m in Sources */,
 				9EFD4A031B300F9500DB0FF2 /* AppDelegate.m in Sources */,
 				9EFD4A2D1B37153700DB0FF2 /* PhotosViewController.m in Sources */,
 				9EFD4A001B300F9500DB0FF2 /* main.m in Sources */,
@@ -327,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		9EFD4A151B300F9500DB0FF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EFD49F91B300F9500DB0FF2 /* Test2 */;
+			target = 9EFD49F91B300F9500DB0FF2 /* GoogleMapsAndFlickr */;
 			targetProxy = 9EFD4A141B300F9500DB0FF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,7 +441,7 @@
 				);
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsAndFlickr;
 			};
 			name = Debug;
 		};
@@ -458,7 +456,7 @@
 				);
 				INFOPLIST_FILE = Test2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsAndFlickr;
 			};
 			name = Release;
 		};
@@ -476,7 +474,7 @@
 				);
 				INFOPLIST_FILE = Test2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsAndFlickrTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test2.app/Test2";
 			};
 			name = Debug;
@@ -491,7 +489,7 @@
 				);
 				INFOPLIST_FILE = Test2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoogleMapsAndFlickrTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test2.app/Test2";
 			};
 			name = Release;
@@ -499,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EFD49F51B300F9500DB0FF2 /* Build configuration list for PBXProject "Test2" */ = {
+		9EFD49F51B300F9500DB0FF2 /* Build configuration list for PBXProject "GoogleMapsAndFlickr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EFD4A1B1B300F9500DB0FF2 /* Debug */,
@@ -508,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EFD4A1D1B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "Test2" */ = {
+		9EFD4A1D1B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "GoogleMapsAndFlickr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EFD4A1E1B300F9500DB0FF2 /* Debug */,
@@ -517,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EFD4A201B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "Test2Tests" */ = {
+		9EFD4A201B300F9500DB0FF2 /* Build configuration list for PBXNativeTarget "GoogleMapsAndFlickrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EFD4A211B300F9500DB0FF2 /* Debug */,

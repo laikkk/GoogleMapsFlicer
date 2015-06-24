@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "MapViewController.h"
 #import "PhotosViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+
+#import "TabBarViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,30 +21,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     [GMSServices provideAPIKey:@"AIzaSyDutxZ2Z0a4CApwgDF-3G5JDNACkJRoVtY"];
-    
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    
-    ViewController* vc1 = [[ViewController alloc] init];
-    PhotosViewController* pvc = [[PhotosViewController alloc] init];
-    //MyOtherViewController* vc2 = [[MyOtherViewController alloc] init];
-    
-    NSArray* controllers = [NSArray arrayWithObjects:vc1,pvc, nil];
-    tabBarController.viewControllers = controllers;
-    
-    UIImage* anImage = [UIImage imageNamed:@"world_icon.png"];
-    UITabBarItem* theItem = [[UITabBarItem alloc] initWithTitle:@"Map" image:anImage tag:0];
+    TabBarViewController *myNewTabBarViewController = [[TabBarViewController alloc] init];
+    _window.rootViewController = myNewTabBarViewController;
 
-    vc1.tabBarItem = theItem;
-    
-    anImage = [UIImage imageNamed:@"photo_icon.png"];
-    theItem = [[UITabBarItem alloc] initWithTitle:@"Photos" image:anImage tag:1];
-    
-    pvc.tabBarItem = theItem;
-    
-    _window.rootViewController = tabBarController;
-    
     return YES;
 }
 

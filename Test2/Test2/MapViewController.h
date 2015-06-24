@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
+#import "TabBarViewController.h"
 
-@interface ViewController : UIViewController<GMSMapViewDelegate>
+@interface MapViewController : UIViewController<GMSMapViewDelegate>
 
+@property (nonatomic, weak) id<PhotoViewControllerDelegate> delegate;
 
 @end
 
